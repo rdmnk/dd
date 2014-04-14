@@ -27,4 +27,7 @@
 `include "design/xge_mac/utils.v"
 `include "design/xge_mac/wishbone_if.v"
 
+`include "design/pkt_rx_analyzer.v"
+
 `include "testbench/tb_xge_mac.v"
+`include "testbench/tb_pkt_rx_analyzer.v"

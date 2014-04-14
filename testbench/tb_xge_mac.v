@@ -472,7 +472,7 @@ task ProcessCmdFile;
   reg [31:0] data;
     begin
 
-        file_cmd = $fopen("tcp_packets.txt", "r");
+        file_cmd = $fopen("testbench/tcp_packets.txt", "r");
         if (!file_cmd) $stop;
 
         while (!$feof(file_cmd)) begin
